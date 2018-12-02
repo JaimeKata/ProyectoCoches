@@ -22,7 +22,7 @@ public class GestionAgencia {
         do {
             menu();
 
-            opcion = Leer.pedirEntero("Seleccione una opcion: ");
+            opcion = Leer.pedirEntero("Seleccione una opcion, por favor: ");
 
             switch (opcion) {
                 case 1://registrar empleado
